@@ -1,0 +1,8 @@
+com\assign\demo\service\FileParserServiceImpl.class
+com\assign\demo\config\XmlUtil.class
+com\assign\demo\service\FileParserService.class
+com\assign\demo\dto\Sentence.class
+com\assign\demo\DemoApplication.class
+com\assign\demo\dto\Text.class
+com\assign\demo\config\ApplicationConfigDto.class
+com\assign\demo\config\FileParserException.class

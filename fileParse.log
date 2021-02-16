@@ -1,0 +1,113 @@
+[INFO ] 16-02-2021 11:38:47.588 AM [main] DemoApplication - Starting DemoApplication using Java 12 on DIN84000644 with PID 13640 (C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\target\classes started by popoorni in C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo)
+[DEBUG] 16-02-2021 11:38:47.590 AM [main] DemoApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+[INFO ] 16-02-2021 11:38:47.592 AM [main] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 16-02-2021 11:41:19.163 AM [main] DemoApplication - Starting DemoApplication using Java 12 on DIN84000644 with PID 5568 (C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\target\classes started by popoorni in C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo)
+[DEBUG] 16-02-2021 11:41:19.166 AM [main] DemoApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+[INFO ] 16-02-2021 11:41:19.167 AM [main] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 16-02-2021 11:43:12.932 AM [main] DemoApplication - Starting DemoApplication using Java 12 on DIN84000644 with PID 10188 (C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\target\classes started by popoorni in C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo)
+[DEBUG] 16-02-2021 11:43:12.934 AM [main] DemoApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+[INFO ] 16-02-2021 11:43:12.935 AM [main] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 16-02-2021 11:48:33.239 AM [main] DemoApplication - Starting DemoApplication using Java 12 on DIN84000644 with PID 4020 (C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\target\classes started by popoorni in C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo)
+[DEBUG] 16-02-2021 11:48:33.242 AM [main] DemoApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+[INFO ] 16-02-2021 11:48:33.243 AM [main] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 16-02-2021 01:02:42.885 PM [main] DemoApplication - Starting DemoApplication using Java 12 on DIN84000644 with PID 6908 (C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\target\classes started by popoorni in C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo)
+[DEBUG] 16-02-2021 01:02:42.887 PM [main] DemoApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+[INFO ] 16-02-2021 01:02:42.888 PM [main] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 16-02-2021 01:05:52.632 PM [main] DemoApplication - Starting DemoApplication using Java 12 on DIN84000644 with PID 10724 (C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\target\classes started by popoorni in C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo)
+[DEBUG] 16-02-2021 01:05:52.635 PM [main] DemoApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+[INFO ] 16-02-2021 01:05:52.636 PM [main] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 16-02-2021 01:05:53.267 PM [main] DemoApplication - Started DemoApplication in 0.912 seconds (JVM running for 2.361)
+[DEBUG] 16-02-2021 01:05:53.269 PM [main] DemoApplication - Starting the File Parsing
+[DEBUG] 16-02-2021 01:05:53.269 PM [main] FileParserServiceImpl - Entering parseFileContent() method
+[DEBUG] 16-02-2021 01:05:53.270 PM [main] FileParserServiceImpl - Error occurred while parsing the file in parseFileContent() C:UserspopoorniDesktopSpringBootInput_Text_Filesmall.in
+[INFO ] 16-02-2021 01:05:53.270 PM [main] FileParserServiceImpl - Exiting parseFileContent() method
+[DEBUG] 16-02-2021 01:05:53.270 PM [main] FileParserServiceImpl - Entering generateOutputFile() method
+[DEBUG] 16-02-2021 01:05:53.271 PM [main] XmlUtil - Entering the marshal() method in XmlUtil
+[ERROR] 16-02-2021 01:05:53.274 PM [main] XmlUtil - Error occurred while generating XML file
+[ERROR] 16-02-2021 01:05:53.275 PM [main] DemoApplication - Exception in Parsing file null
+[INFO ] 16-02-2021 01:07:11.463 PM [main] DemoApplication - Starting DemoApplication using Java 12 on DIN84000644 with PID 13108 (C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\target\classes started by popoorni in C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo)
+[DEBUG] 16-02-2021 01:07:11.466 PM [main] DemoApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+[INFO ] 16-02-2021 01:07:11.467 PM [main] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 16-02-2021 01:07:12.034 PM [main] DemoApplication - Started DemoApplication in 0.854 seconds (JVM running for 2.389)
+[DEBUG] 16-02-2021 01:07:12.036 PM [main] DemoApplication - Starting the File Parsing
+[DEBUG] 16-02-2021 01:07:12.036 PM [main] FileParserServiceImpl - Entering parseFileContent() method
+[DEBUG] 16-02-2021 01:07:12.050 PM [main] FileParserServiceImpl - Entering getSentences() method
+[DEBUG] 16-02-2021 01:07:12.056 PM [main] FileParserServiceImpl - Exiting getSentences() method
+[DEBUG] 16-02-2021 01:07:12.056 PM [main] FileParserServiceImpl - Entering the escapeSpecialCharacters()
+[DEBUG] 16-02-2021 01:07:12.057 PM [main] FileParserServiceImpl - Exiting the escapeSpecialCharacters()
+[DEBUG] 16-02-2021 01:07:12.058 PM [main] FileParserServiceImpl - Entering the getWords()
+[DEBUG] 16-02-2021 01:07:12.061 PM [main] FileParserServiceImpl - Exiting the getWords()
+[DEBUG] 16-02-2021 01:07:12.061 PM [main] FileParserServiceImpl - Entering the buildTextPojo()
+[DEBUG] 16-02-2021 01:07:12.062 PM [main] FileParserServiceImpl - Exiting the buildTextPojo()
+[INFO ] 16-02-2021 01:07:12.062 PM [main] FileParserServiceImpl - Exiting parseFileContent() method
+[DEBUG] 16-02-2021 01:07:12.063 PM [main] FileParserServiceImpl - Entering generateOutputFile() method
+[DEBUG] 16-02-2021 01:07:12.063 PM [main] XmlUtil - Entering the marshal() method in XmlUtil
+[INFO ] 16-02-2021 01:08:11.530 PM [main] DemoApplication - Starting DemoApplication using Java 12 on DIN84000644 with PID 1076 (C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\target\classes started by popoorni in C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo)
+[DEBUG] 16-02-2021 01:08:11.537 PM [main] DemoApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+[INFO ] 16-02-2021 01:08:11.538 PM [main] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 16-02-2021 01:08:12.132 PM [main] DemoApplication - Started DemoApplication in 0.906 seconds (JVM running for 2.452)
+[DEBUG] 16-02-2021 01:08:12.135 PM [main] DemoApplication - Starting the File Parsing
+[DEBUG] 16-02-2021 01:08:12.135 PM [main] FileParserServiceImpl - Entering parseFileContent() method
+[DEBUG] 16-02-2021 01:08:12.138 PM [main] FileParserServiceImpl - Entering getSentences() method
+[DEBUG] 16-02-2021 01:08:12.140 PM [main] FileParserServiceImpl - Exiting getSentences() method
+[DEBUG] 16-02-2021 01:08:12.140 PM [main] FileParserServiceImpl - Entering the escapeSpecialCharacters()
+[DEBUG] 16-02-2021 01:08:12.141 PM [main] FileParserServiceImpl - Exiting the escapeSpecialCharacters()
+[DEBUG] 16-02-2021 01:08:12.142 PM [main] FileParserServiceImpl - Entering the getWords()
+[DEBUG] 16-02-2021 01:08:12.145 PM [main] FileParserServiceImpl - Exiting the getWords()
+[DEBUG] 16-02-2021 01:08:12.145 PM [main] FileParserServiceImpl - Entering the buildTextPojo()
+[DEBUG] 16-02-2021 01:08:12.146 PM [main] FileParserServiceImpl - Exiting the buildTextPojo()
+[INFO ] 16-02-2021 01:08:12.146 PM [main] FileParserServiceImpl - Exiting parseFileContent() method
+[DEBUG] 16-02-2021 01:08:12.147 PM [main] FileParserServiceImpl - Entering generateOutputFile() method
+[DEBUG] 16-02-2021 01:08:12.147 PM [main] XmlUtil - Entering the marshal() method in XmlUtil
+[DEBUG] 16-02-2021 01:08:12.337 PM [main] XmlUtil - Exiting the marshal() method in XmlUtil
+[DEBUG] 16-02-2021 01:08:12.337 PM [main] XmlUtil - Completed the xml file generation in the path--C:\Users\popoorni\Desktop\SpringBoot\Output_XML_File\output.xml
+[DEBUG] 16-02-2021 01:08:12.339 PM [main] FileParserServiceImpl - Entering the generateOutputInCSV()
+[DEBUG] 16-02-2021 01:08:12.352 PM [main] FileParserServiceImpl - Exiting the generateOutputInCSV() -Successfully generated CSV Output file in the path  C:\Users\popoorni\Desktop\SpringBoot\Output_CSV_File\output.csv
+[DEBUG] 16-02-2021 01:08:12.352 PM [main] FileParserServiceImpl - Exiting generateOutputFile() method
+[DEBUG] 16-02-2021 01:08:12.353 PM [main] DemoApplication - Completed the File Parsing
+[INFO ] 16-02-2021 01:21:26.301 PM [main] DemoApplication - Starting DemoApplication using Java 12 on DIN84000644 with PID 8100 (C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\target\classes started by popoorni in C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo)
+[DEBUG] 16-02-2021 01:21:26.304 PM [main] DemoApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+[INFO ] 16-02-2021 01:21:26.305 PM [main] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 16-02-2021 01:21:26.820 PM [main] DemoApplication - Started DemoApplication in 0.789 seconds (JVM running for 2.127)
+[DEBUG] 16-02-2021 01:21:26.821 PM [main] DemoApplication - Starting the File Parsing
+[DEBUG] 16-02-2021 01:21:26.821 PM [main] FileParserServiceImpl - Entering parseFileContent() method
+[DEBUG] 16-02-2021 01:21:26.824 PM [main] FileParserServiceImpl - Entering getSentences() method
+[DEBUG] 16-02-2021 01:21:26.826 PM [main] FileParserServiceImpl - Exiting getSentences() method
+[DEBUG] 16-02-2021 01:21:26.826 PM [main] FileParserServiceImpl - Entering the escapeSpecialCharacters()
+[DEBUG] 16-02-2021 01:21:26.826 PM [main] FileParserServiceImpl - Exiting the escapeSpecialCharacters()
+[DEBUG] 16-02-2021 01:21:26.826 PM [main] FileParserServiceImpl - Entering the getWords()
+[DEBUG] 16-02-2021 01:21:26.828 PM [main] FileParserServiceImpl - Exiting the getWords()
+[DEBUG] 16-02-2021 01:21:26.829 PM [main] FileParserServiceImpl - Entering the buildTextPojo()
+[DEBUG] 16-02-2021 01:21:26.829 PM [main] FileParserServiceImpl - Exiting the buildTextPojo()
+[INFO ] 16-02-2021 01:21:26.829 PM [main] FileParserServiceImpl - Exiting parseFileContent() method
+[DEBUG] 16-02-2021 01:21:26.829 PM [main] FileParserServiceImpl - Entering generateOutputFile() method
+[DEBUG] 16-02-2021 01:21:26.829 PM [main] XmlUtil - Entering the marshal() method in XmlUtil
+[DEBUG] 16-02-2021 01:21:26.954 PM [main] XmlUtil - Exiting the marshal() method in XmlUtil
+[DEBUG] 16-02-2021 01:21:26.955 PM [main] XmlUtil - Completed the xml file generation in the path--C:\Users\popoorni\Desktop\SpringBoot\Output_XML_File\output.xml
+[DEBUG] 16-02-2021 01:21:26.956 PM [main] FileParserServiceImpl - Entering the generateOutputInCSV()
+[DEBUG] 16-02-2021 01:21:26.960 PM [main] FileParserServiceImpl - Exiting the generateOutputInCSV() -Successfully generated CSV Output file in the path  C:\Users\popoorni\Desktop\SpringBoot\Output_CSV_File\output.csv
+[DEBUG] 16-02-2021 01:21:26.960 PM [main] FileParserServiceImpl - Exiting generateOutputFile() method
+[DEBUG] 16-02-2021 01:21:26.960 PM [main] DemoApplication - Completed the File Parsing
+[INFO ] 16-02-2021 01:26:17.781 PM [main] DemoApplication - Starting DemoApplication using Java 12 on DIN84000644 with PID 14184 (C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\target\classes started by popoorni in C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo)
+[DEBUG] 16-02-2021 01:26:17.784 PM [main] DemoApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+[INFO ] 16-02-2021 01:26:17.785 PM [main] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 16-02-2021 01:26:18.378 PM [main] DemoApplication - Started DemoApplication in 0.863 seconds (JVM running for 2.213)
+[DEBUG] 16-02-2021 01:26:18.379 PM [main] DemoApplication - Starting the File Parsing
+[DEBUG] 16-02-2021 01:26:18.379 PM [main] FileParserServiceImpl - Entering parseFileContent() method
+[DEBUG] 16-02-2021 01:26:18.405 PM [main] FileParserServiceImpl - Entering getSentences() method
+[DEBUG] 16-02-2021 01:26:18.411 PM [main] FileParserServiceImpl - Exiting getSentences() method
+[DEBUG] 16-02-2021 01:26:18.412 PM [main] FileParserServiceImpl - Entering the escapeSpecialCharacters()
+[DEBUG] 16-02-2021 01:26:18.414 PM [main] FileParserServiceImpl - Exiting the escapeSpecialCharacters()
+[DEBUG] 16-02-2021 01:26:18.414 PM [main] FileParserServiceImpl - Entering the getWords()
+[DEBUG] 16-02-2021 01:26:18.418 PM [main] FileParserServiceImpl - Exiting the getWords()
+[DEBUG] 16-02-2021 01:26:18.418 PM [main] FileParserServiceImpl - Entering the buildTextPojo()
+[DEBUG] 16-02-2021 01:26:18.419 PM [main] FileParserServiceImpl - Exiting the buildTextPojo()
+[INFO ] 16-02-2021 01:26:18.419 PM [main] FileParserServiceImpl - Exiting parseFileContent() method
+[DEBUG] 16-02-2021 01:26:18.419 PM [main] FileParserServiceImpl - Entering generateOutputFile() method
+[DEBUG] 16-02-2021 01:26:18.420 PM [main] XmlUtil - Entering the marshal() method in XmlUtil
+[DEBUG] 16-02-2021 01:26:18.557 PM [main] XmlUtil - Exiting the marshal() method in XmlUtil
+[DEBUG] 16-02-2021 01:26:18.558 PM [main] XmlUtil - Completed the xml file generation in the path--C:\Users\popoorni\Desktop\SpringBoot\Output_XML_File\output.xml
+[DEBUG] 16-02-2021 01:26:18.560 PM [main] FileParserServiceImpl - Entering the generateOutputInCSV()
+[DEBUG] 16-02-2021 01:26:18.565 PM [main] FileParserServiceImpl - Exiting the generateOutputInCSV() -Successfully generated CSV Output file in the path  C:\Users\popoorni\Desktop\SpringBoot\Output_CSV_File\output.csv
+[DEBUG] 16-02-2021 01:26:18.566 PM [main] FileParserServiceImpl - Exiting generateOutputFile() method
+[DEBUG] 16-02-2021 01:26:18.566 PM [main] DemoApplication - Completed the File Parsing
