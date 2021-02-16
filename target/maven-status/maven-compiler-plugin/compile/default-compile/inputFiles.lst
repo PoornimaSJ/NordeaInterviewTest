@@ -1,8 +1,8 @@
 C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\src\main\java\com\sts\fileparser\FileParserApp.java
 C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\src\main\java\com\sts\fileparser\service\FileParserServiceImpl.java
 C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\src\main\java\com\sts\fileparser\service\FileParserService.java
-C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\src\main\java\com\sts\fileparser\config\XmlUtil.java
-C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\src\main\java\com\sts\fileparser\dto\Text.java
-C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\src\main\java\com\sts\fileparser\config\ApplicationConfigDto.java
+C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\src\main\java\com\sts\fileparser\config\XmlFileParser.java
+C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\src\main\java\com\sts\fileparser\dto\FileParserTextDto.java
+C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\src\main\java\com\sts\fileparser\config\FileParserAppConfigDto.java
+C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\src\main\java\com\sts\fileparser\dto\FileParserSentenceDto.java
 C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\src\main\java\com\sts\fileparser\config\FileParserException.java
-C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\src\main\java\com\sts\fileparser\dto\Sentence.java

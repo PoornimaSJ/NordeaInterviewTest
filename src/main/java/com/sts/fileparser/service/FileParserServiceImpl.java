@@ -18,9 +18,9 @@ import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.sts.fileparser.config.ApplicationConfigDto;
+import com.sts.fileparser.config.FileParserAppConfigDto;
 import com.sts.fileparser.config.FileParserException;
-import com.sts.fileparser.config.XmlUtil;
+import com.sts.fileparser.config.XmlFileParser;
 import com.sts.fileparser.dto.Sentence;
 import com.sts.fileparser.dto.Text;
 
@@ -36,10 +36,10 @@ public class FileParserServiceImpl implements FileParserService {
 	public final static String REGULAR_EXPRESSION = "(?<!\\w\\.\\w.)(?<![A-Z][a-z]\\.)(?<=\\.|\\?)\\s";
 
 	@Autowired
-	private ApplicationConfigDto applicationConfigDto;
+	private FileParserAppConfigDto fileParserAppConfigDto;
 
 	@Autowired
-	private XmlUtil xmlUtil;
+	private XmlFileParser xmlFileParser;
 
 	String header = " ";
 
@@ -50,7 +50,7 @@ public class FileParserServiceImpl implements FileParserService {
 
 		LOGGER.debug("Entering parseFileContent() method");
 
-		String inputfilePath = applicationConfigDto.getInputFilePath();
+		String inputfilePath = fileParserAppConfigDto.getInputFilePath();
 
 		Text text = null;
 
@@ -92,17 +92,17 @@ public class FileParserServiceImpl implements FileParserService {
 		try {
 			boolean generateXml = false;
 
-			if (applicationConfigDto.getGenXml() == 1) {
+			if (fileParserAppConfigDto.getGenXml() == 1) {
 				generateXml = true;
 			}
 
 			if (generateXml) {
-				xmlUtil.marshal(text);
+				xmlFileParser.marshal(text);
 			}
 
 			boolean generateCsv = false;
 
-			if (applicationConfigDto.getGenCsv() == 1) {
+			if (fileParserAppConfigDto.getGenCsv() == 1) {
 				generateCsv = true;
 			}
 
@@ -245,7 +245,7 @@ public class FileParserServiceImpl implements FileParserService {
 	private void generateOutputInCSV(List<Sentence> sentenceList) {
 
 		LOGGER.debug("Entering the generateOutputInCSV()");
-		String csvOutputFilePath = applicationConfigDto.getCsvOutputFilePath() + "\\output.csv";
+		String csvOutputFilePath = fileParserAppConfigDto.getCsvOutputFilePath() + "\\output.csv";
 
 		try (FileWriter fileWriter = new FileWriter(new File(csvOutputFilePath));
 				BufferedWriter writer = new BufferedWriter(fileWriter)) {

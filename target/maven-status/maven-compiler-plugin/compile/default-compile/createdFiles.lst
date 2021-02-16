@@ -1,8 +1,8 @@
+com\sts\fileparser\dto\FileParserTextDto.class
 com\sts\fileparser\config\FileParserException.class
 com\sts\fileparser\FileParserApp.class
-com\sts\fileparser\dto\Text.class
-com\sts\fileparser\dto\Sentence.class
-com\sts\fileparser\config\ApplicationConfigDto.class
-com\sts\fileparser\config\XmlUtil.class
+com\sts\fileparser\config\FileParserAppConfigDto.class
+com\sts\fileparser\config\XmlFileParser.class
+com\sts\fileparser\dto\FileParserSentenceDto.class
 com\sts\fileparser\service\FileParserService.class
 com\sts\fileparser\service\FileParserServiceImpl.class

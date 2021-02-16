@@ -31,7 +31,7 @@ public class FileParserApp implements CommandLineRunner {
 			LOGGER.debug("File Parsing started");
 			Text text = fileParserServiceImpl.parseFileContent();
 			fileParserServiceImpl.generateOutputFile(text);
-			LOGGER.debug("Completed the File Parsing");
+			LOGGER.debug("File Parsing is completed");
 		} catch (FileParserException e) {
 			LOGGER.error("File Parser Exception" + e.getMessage());
 			System.out.println("File Parser Exception" + e.getMessage());

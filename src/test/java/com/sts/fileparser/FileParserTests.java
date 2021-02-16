@@ -9,8 +9,8 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 
-import com.sts.fileparser.config.ApplicationConfigDto;
-import com.sts.fileparser.config.XmlUtil;
+import com.sts.fileparser.config.FileParserAppConfigDto;
+import com.sts.fileparser.config.XmlFileParser;
 import com.sts.fileparser.service.FileParserServiceImpl;
 
 public class FileParserTests {
@@ -19,10 +19,10 @@ public class FileParserTests {
 	private FileParserServiceImpl fileParserServiceImpl;
 
 	@Mock
-	private ApplicationConfigDto applicationConfigDto;
+	private FileParserAppConfigDto fileParserAppConfigDto;
 
 	@Mock
-	private XmlUtil xmlUtil;
+	private XmlFileParser xmlFileParser;
 
 	@Before
 	public void init() {
@@ -33,7 +33,7 @@ public class FileParserTests {
 	public void testEmptyInputFilePath() {
 		try {
 			//System.out.println("test method");
-			Mockito.when(applicationConfigDto.getInputFilePath()).thenReturn("");
+			Mockito.when(fileParserAppConfigDto.getInputFilePath()).thenReturn("");
 			fileParserServiceImpl.parseFileContent();
 		} catch (Exception e) {
 			assertEquals(e.getMessage(), "Input file path is empty");
@@ -43,8 +43,8 @@ public class FileParserTests {
 	@Test
 	public void testEmptyOutputXmlFilePath() {
 		try {
-			Mockito.when(applicationConfigDto.getXmlOutputFilePath()).thenReturn("");
-			xmlUtil.marshal(Mockito.any());
+			Mockito.when(fileParserAppConfigDto.getXmlOutputFilePath()).thenReturn("");
+			xmlFileParser.marshal(Mockito.any());
 		} catch (Exception e) {
 			assertEquals(e.getMessage(), "Output File Path is empty");
 		}
