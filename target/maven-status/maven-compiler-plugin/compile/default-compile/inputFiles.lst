@@ -1,8 +1,8 @@
-C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\src\main\java\com\assign\demo\service\FileParserService.java
-C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\src\main\java\com\assign\demo\service\FileParserServiceImpl.java
-C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\src\main\java\com\assign\demo\config\FileParserException.java
-C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\src\main\java\com\assign\demo\dto\Text.java
-C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\src\main\java\com\assign\demo\DemoApplication.java
-C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\src\main\java\com\assign\demo\config\XmlUtil.java
-C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\src\main\java\com\assign\demo\config\ApplicationConfigDto.java
-C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\src\main\java\com\assign\demo\dto\Sentence.java
+C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\src\main\java\com\sts\fileparser\FileParserApp.java
+C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\src\main\java\com\sts\fileparser\service\FileParserServiceImpl.java
+C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\src\main\java\com\sts\fileparser\service\FileParserService.java
+C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\src\main\java\com\sts\fileparser\config\XmlUtil.java
+C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\src\main\java\com\sts\fileparser\dto\Text.java
+C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\src\main\java\com\sts\fileparser\config\ApplicationConfigDto.java
+C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\src\main\java\com\sts\fileparser\config\FileParserException.java
+C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\src\main\java\com\sts\fileparser\dto\Sentence.java

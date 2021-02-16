@@ -8,11 +8,11 @@
 		<version>2.4.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.assign</groupId>
-	<artifactId>demo</artifactId>
+	<groupId>com.sts</groupId>
+	<artifactId>fileparser</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
-	<description>Assignment project</description>
+	<name>fileparser</name>
+	<description>Interview Test</description>
 
 	<properties>
 		<java.version>1.8</java.version>

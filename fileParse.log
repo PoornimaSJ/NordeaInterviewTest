@@ -111,3 +111,26 @@
 [DEBUG] 16-02-2021 01:26:18.565 PM [main] FileParserServiceImpl - Exiting the generateOutputInCSV() -Successfully generated CSV Output file in the path  C:\Users\popoorni\Desktop\SpringBoot\Output_CSV_File\output.csv
 [DEBUG] 16-02-2021 01:26:18.566 PM [main] FileParserServiceImpl - Exiting generateOutputFile() method
 [DEBUG] 16-02-2021 01:26:18.566 PM [main] DemoApplication - Completed the File Parsing
+[INFO ] 16-02-2021 01:53:51.126 PM [main] DemoApplication - Starting DemoApplication using Java 12 on DIN84000644 with PID 472 (C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo\target\classes started by popoorni in C:\Users\popoorni\Desktop\SpringBoot\Source_Code\demo)
+[DEBUG] 16-02-2021 01:53:51.128 PM [main] DemoApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+[INFO ] 16-02-2021 01:53:51.129 PM [main] DemoApplication - No active profile set, falling back to default profiles: default
+[INFO ] 16-02-2021 01:53:51.614 PM [main] DemoApplication - Started DemoApplication in 0.74 seconds (JVM running for 2.05)
+[DEBUG] 16-02-2021 01:53:51.615 PM [main] DemoApplication - Starting the File Parsing
+[DEBUG] 16-02-2021 01:53:51.616 PM [main] FileParserServiceImpl - Entering parseFileContent() method
+[DEBUG] 16-02-2021 01:53:51.618 PM [main] FileParserServiceImpl - Entering getSentences() method
+[DEBUG] 16-02-2021 01:53:51.620 PM [main] FileParserServiceImpl - Exiting getSentences() method
+[DEBUG] 16-02-2021 01:53:51.620 PM [main] FileParserServiceImpl - Entering the escapeSpecialCharacters()
+[DEBUG] 16-02-2021 01:53:51.621 PM [main] FileParserServiceImpl - Exiting the escapeSpecialCharacters()
+[DEBUG] 16-02-2021 01:53:51.621 PM [main] FileParserServiceImpl - Entering the getWords()
+[DEBUG] 16-02-2021 01:53:51.623 PM [main] FileParserServiceImpl - Exiting the getWords()
+[DEBUG] 16-02-2021 01:53:51.623 PM [main] FileParserServiceImpl - Entering the buildTextPojo()
+[DEBUG] 16-02-2021 01:53:51.623 PM [main] FileParserServiceImpl - Exiting the buildTextPojo()
+[INFO ] 16-02-2021 01:53:51.623 PM [main] FileParserServiceImpl - Exiting parseFileContent() method
+[DEBUG] 16-02-2021 01:53:51.623 PM [main] FileParserServiceImpl - Entering generateOutputFile() method
+[DEBUG] 16-02-2021 01:53:51.623 PM [main] XmlUtil - Entering the marshal() method in XmlUtil
+[DEBUG] 16-02-2021 01:53:51.745 PM [main] XmlUtil - Exiting the marshal() method in XmlUtil
+[DEBUG] 16-02-2021 01:53:51.745 PM [main] XmlUtil - Completed the xml file generation in the path--C:\Users\popoorni\Desktop\SpringBoot\Output_XML_File\output.xml
+[DEBUG] 16-02-2021 01:53:51.746 PM [main] FileParserServiceImpl - Entering the generateOutputInCSV()
+[DEBUG] 16-02-2021 01:53:51.750 PM [main] FileParserServiceImpl - Exiting the generateOutputInCSV() -Successfully generated CSV Output file in the path  C:\Users\popoorni\Desktop\SpringBoot\Output_CSV_File\output.csv
+[DEBUG] 16-02-2021 01:53:51.750 PM [main] FileParserServiceImpl - Exiting generateOutputFile() method
+[DEBUG] 16-02-2021 01:53:51.751 PM [main] DemoApplication - Completed the File Parsing
